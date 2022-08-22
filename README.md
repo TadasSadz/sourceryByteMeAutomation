@@ -1,3 +1,4 @@
 # sourceryByteMeAutomation
-Dev bridge academy workshop, automation part
-Automation
+Authorization is done in LunchappAuth.js
+
+Test are done in example.spec.js
