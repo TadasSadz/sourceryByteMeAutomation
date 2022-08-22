@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-check ts
 const { test, expect } = require("@playwright/test");
 const { LunchappAuth } = require("../Pages/LunchappAuth");
 
