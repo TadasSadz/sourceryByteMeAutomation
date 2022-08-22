@@ -15,7 +15,7 @@ const { devices } = require('@playwright/test');
 const config = {
   testDir: './tests',
   /* Maximum time one test can run for. */
-  timeout: 10 * 500,
+  timeout: 10 * 2000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -44,7 +44,11 @@ const config = {
     launchOptions: {
       slowMo: 0,
     },
+    //auth config
+
   },
+
+
 
   /* Configure projects for major browsers */
   projects: [
